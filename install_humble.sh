@@ -9,6 +9,9 @@ export LANG=en_US.UTF-8
 
 locale  # verify settings
 
+sudo apt install software-properties-common
+sudo add-apt-repository universe
+
 sudo apt update && sudo apt install curl -y
 sudo curl -sSL https://raw.githubusercontent.com/ros/rosdistro/master/ros.key -o /usr/share/keyrings/ros-archive-keyring.gpg
 
