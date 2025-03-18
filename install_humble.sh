@@ -9,7 +9,7 @@ export LANG=en_US.UTF-8
 
 locale  # verify settings
 
-sudo apt install software-properties-common
+sudo apt install -y software-properties-common
 sudo add-apt-repository universe
 
 sudo apt update && sudo apt install curl -y
